@@ -24,6 +24,7 @@ class OpenRouterLLM:
                     "content": prompt,
                 }
             ],
+           "max_tokens": 1500,
         }
 
         response = requests.post(
